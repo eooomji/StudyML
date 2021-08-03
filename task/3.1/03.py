@@ -1,4 +1,3 @@
-# 3.1.3
 ## 더 나은 방법 생각해보기
 import numpy as np
 import random
