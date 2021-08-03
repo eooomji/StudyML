@@ -1,4 +1,3 @@
-#3.2.1 표를 판다스 데이터프레임으로 만들어 다음과 같이 출력해보자
 import pandas as pd
 
 P_carCompany = pd.DataFrame ({'name' :  ['A', 'B', 'C', 'D', 'E', 'F', 'G'],
