@@ -8,7 +8,7 @@ def h(x, param):
   return param[0]*x + param[1]
 
 learning_iteration = 1000   # 학습 반복 횟수
-learning_rate = 0.0025      # 학습율
+learning_rate = 0.0025      # 학습률
 
 param = [1, 1]              # w, b를 하나의 변수
 
