@@ -1,4 +1,3 @@
-# 3.1.2 짝수번째 행 모두 0
 import numpy as np
 import random
 
