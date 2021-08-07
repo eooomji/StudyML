@@ -26,7 +26,7 @@ for k in range(3, 8, 2):
   knn = KNeighborsClassifier(n_neighbors = k)
   knn.fit(dogs, labels)
   y_pred = knn.predict(newdata2)
-  print('B [[58, 30]] : n_neighbors가', k, '일 때 :', dog_classes[y_pred[0]])
+  print('B [[80, 26]] : n_neighbors가', k, '일 때 :', dog_classes[y_pred[0]])
 print('===============================================')
 
 print('C 데이터 분류결과')
@@ -34,7 +34,7 @@ for k in range(3, 8, 2):
   knn = KNeighborsClassifier(n_neighbors = k)
   knn.fit(dogs, labels)
   y_pred = knn.predict(newdata3)
-  print('C [[58, 30]] : n_neighbors가', k, '일 때 :', dog_classes[y_pred[0]])
+  print('C [[80, 41]] : n_neighbors가', k, '일 때 :', dog_classes[y_pred[0]])
 print('===============================================')
 
 print('D 데이터 분류결과')
@@ -42,5 +42,5 @@ for k in range(3, 8, 2):
   knn = KNeighborsClassifier(n_neighbors = k)
   knn.fit(dogs, labels)
   y_pred = knn.predict(newdata4)
-  print('D [[58, 30]] : n_neighbors가', k, '일 때 :', dog_classes[y_pred[0]])
+  print('D [[75, 55]] : n_neighbors가', k, '일 때 :', dog_classes[y_pred[0]])
 print('===============================================')
